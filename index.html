@@ -1,22 +1,48 @@
 <!DOCTYPE HTML>
 <html>
 	<head>
-		<title>혁신의 시작, 팀 므느으르</title>
+		<title>(개발 중) 혁신의 시작, 팀 므느으르</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="shortcut icon" type="image/x-icon" href="https://cdn.discordapp.com/attachments/785829576114176030/872454691181694996/profile_.png">
-<!--		<link rel="stylesheet" href="{{ url_for('static', filename='css/main.css') }}" />-->
+		<link rel="stylesheet" href="static/css/bootstrap.css">
 		<link rel="stylesheet" href="static/css/main.css" />
 	</head>
 	<body class="is-preload">
 
 		<!-- Header -->
 			<div id="header">
+				
+				<nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
+
+					<a class="navbar-brand", href="https://t-asdf.github.io">팀 므느으르</a>
+					<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+					  <span class="navbar-toggler-icon"></span>
+					</button>
+					<div class="collapse navbar-collapse" id="navbarSupportedContent">
+					  <ul class="navbar-nav mr-auto">
+						<li class="nav-item active">
+						  <a class="nav-link" href="https://blog.naver.com/seojune5383" target="_blank">개발자 블로그<span class="sr-only">(current)</span></a>
+						</li>
+<!-- 
+						<li class="nav-item">
+						  <a class="nav-link" href="#">Link</a>
+						</li>
+
+						<li class="nav-item">
+						  <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+						</li> -->
+
+					  </ul>
+					</div>
+				  </nav>
+
+
 				<img src="https://cdn.discordapp.com/attachments/785829576114176030/872454691181694996/profile_.png" class="logo" alt="팀 므느으르 아이콘"/>
 				<h1 class="title_language">혁신의 시작, 팀 므느으르</h1>
 				<p>단순함, 편리함, 똑똑함, 세 박자를 모두 갖추다.
 				<br />
-				Simple, Convenience, Smart.</p>
+				Simple, Convenience, Smart.<br><br>현재 사이트 개발 중입니다.</p>
 			</div>
 
 		<!-- Main -->
@@ -45,21 +71,22 @@
 					<section class="feature right">
 						<a href="#" class="image icon solid fa-code"><img src="static/images/pic02.jpg" alt="" /></a>
 						<div class="content">
-							<h3>The Second Thing</h3>
-							<p>Vitae natoque dictum etiam semper magnis enim feugiat amet curabitur tempor orci penatibus. Tellus erat mauris ipsum fermentum etiam vivamus eget. Nunc nibh morbi quis fusce lacus.</p>
+							<h3>TEAM MEMBERS</h3>
+							<p>미래를 향해 끊임없이 도약하는 <br>팀 므느으르의 구성원을 소개합니다.<br>모두 10대로, 총 n명의 팀원으로 구성되어 있으며, <br>항상 새로운 가치를 창조하며 무한한 가능성과 <br>잠재력을 바탕으로 최고가 되기 위해 노력합니다.</p>
 						</div>
 					</section>
 					<section class="feature left">
-						<a href="#" class="image icon solid fa-mobile-alt"><img src="static/images/pic03.jpg" alt="" /></a>
+						<a href="#" class="image icon solid fa-mobile-alt" id="image_icon_phone"><img src="static/images/pic03.jpg" alt="" /></a>
 						<div class="content">
-							<h3>The Third Thing</h3>
-							<p>Vitae natoque dictum etiam semper magnis enim feugiat amet curabitur tempor orci penatibus. Tellus erat mauris ipsum fermentum etiam vivamus eget. Nunc nibh morbi quis fusce lacus.</p>
+							<h3>Services</h3>
+							<p>단순하고, 편리하고, 똑똑함의 세 박자를 갖춘<br>팀 므느으르의 서비스들을 소개합니다.<br>소프트웨어, 웹, 앱, 게임, 인공지능 등의<br>서비스들을 만나 보실 수 있습니다.</p>
 						</div>
 					</section>
 				</div>
 
-				<!--
-				<div class="box container">
+
+				
+				<!-- <div class="box container"> 해당 기능은 미사용
 					<header>
 						<h2>A lot of generic stuff</h2>
 					</header>
@@ -198,21 +225,26 @@
 							</div>
 						</form>
 					</section>
-				</div>
-				-->
+				</div> -->
+
+
+
 
 				<footer class="major container medium">
-					<h3>Get shady with science</h3>
-					<p>Vitae natoque dictum etiam semper magnis enim feugiat amet curabitur tempor orci penatibus. Tellus erat mauris ipsum fermentum etiam vivamus.</p>
+					<h3>Join our team</h3>
+					<p>아무것도 몰라도 괜찮습니다. <br>팀원들과 함께 미래를 설계하고 싶은 사람.<br>
+						끊임없이 미래를 향해 도약하며 발전하고 싶은 사람,<br>
+						일에 대한 열정과 도전적인 자세를 가지고 항상 노력하는 사람.<br>
+						언제든지 환영합니다.</p>
 					<ul class="actions special">
-						<li><a href="#" class="button">Join our crew</a></li>
+						<li><a href="https://forms.gle/tfQEc2jjM223vGyh8" target="_blank" class="button">팀 신청하기</a></li>
 					</ul>
 				</footer>
 
 			</div>
 
 		<!-- Footer -->
-			<div id="footer">
+			<!-- <div id="footer">
 				<div class="container medium">
 
 					<header class="major last">
@@ -254,14 +286,16 @@
 					</ul>
 
 				</div>
-			</div>
+			</div> -->
 
 		<!-- Scripts -->
-			<script src="assets/js/jquery.min.js"></script>
-			<script src="assets/js/browser.min.js"></script>
-			<script src="assets/js/breakpoints.min.js"></script>
-			<script src="assets/js/util.js"></script>
-			<script src="assets/js/main.js"></script>
+			<script src="static/js/jquery.min.js"></script>
+			<script src="static/js/browser.min.js"></script>
+			<script src="static/js/breakpoints.min.js"></script>
+			<script src="static/js/util.js"></script>
+			<script src="static/js/main.js"></script>
+			<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+			<script type="text/javascript" src="static/js/bootstrap.js"></script>
 
 	</body>
 </html>

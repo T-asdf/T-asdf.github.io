@@ -1972,6 +1972,10 @@ input, select, textarea {
 
 	header {
 		text-align: center;
+
+		display: grid;
+		grid-auto-flow: column;
+		grid-template-columns: 1fr;
 	}
 
 		header p {
@@ -2719,7 +2723,7 @@ input, select, textarea {
 		background-repeat: repeat-x,						repeat,					no-repeat;
 		background-size: 3200px 460px,					auto,					cover;
 		color: rgba(255, 255, 255, 0.8);
-        padding: 5em 0 15em 0;
+        padding: 7em 0 12em 0;
 		position: relative;
 		text-align: center;
 	}
@@ -2905,7 +2909,7 @@ input, select, textarea {
 					#footer .copyright li a:hover, #footer .copyright li span:hover {
 						color: #ffffff;
 					}
-
+				
 /* Main */
 
 	#main {
